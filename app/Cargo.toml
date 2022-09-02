@@ -1,0 +1,11 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3.24"
+instant = { version = "0.1.12", features = ["wasm-bindgen"] }
+log = "0.4.17"
+runtime = { path = "../runtime" }
+wasm-logger = "0.2.0"
